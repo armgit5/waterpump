@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label>On/Off</ion-label>
+      <ion-toggle [(ngModel)]="onOff" (ionChange)="onToggle()"></ion-toggle>
+    </ion-item>
+  </ion-list>
+</ion-content>
